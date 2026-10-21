@@ -1,7 +1,7 @@
 # calc
 
 A tiny Python package with basic arithmetic operations (`add`, `subtract`,
-`multiply`, `divide`) and a pytest test suite.
+`multiply`, `divide`) in `calc/ops.py`, plus a pytest test suite.
 
 ## How to run
 

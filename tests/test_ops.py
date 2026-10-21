@@ -12,30 +12,30 @@ def test_add_negative():
 
 
 def test_add_mixed():
-    assert add(10, -3) == 7
+    assert add(-2, 7) == 5
 
 
 def test_subtract_positive():
-    assert subtract(5, 3) == 2
+    assert subtract(10, 4) == 6
 
 
 def test_subtract_negative_result():
-    assert subtract(3, 5) == -2
+    assert subtract(3, 8) == -5
 
 
 def test_multiply_positive():
-    assert multiply(4, 3) == 12
+    assert multiply(3, 4) == 12
 
 
 def test_multiply_by_zero():
-    assert multiply(7, 0) == 0
+    assert multiply(5, 0) == 0
 
 
 def test_multiply_negative():
-    assert multiply(-2, 3) == -6
+    assert multiply(-2, 6) == -12
 
 
-def test_divide_exact():
+def test_divide_even():
     assert divide(10, 2) == 5
 
 
