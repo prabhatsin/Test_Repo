@@ -1,9 +1,9 @@
-# Test_Repo
+# calc
 
-A tiny Python calculator package (`calc`) with `add`, `subtract`, `multiply`,
-and `divide` functions, plus a pytest test suite.
+A tiny Python package with basic arithmetic operations (`add`, `subtract`,
+`multiply`, `divide`) and a pytest test suite.
 
-## Running the tests
+## How to run
 
 ```bash
 python3 -m venv .venv
